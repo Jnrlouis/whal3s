@@ -15,16 +15,13 @@ const ConnectWallet = ({utility}) => {
         })
     }
     return (
-        <div className={styles.button}>
-
-            <div className="mt-5 flex flex-grow items-end justify-end">
-                <button
-                    isLoading={loading}
-                    className=""
-                    onClick={() => {
-                        connectWallet()
-                    }}>Connect Wallet</button>
-            </div>
+        <div className={styles.button}>   
+        <button
+            isLoading={loading}
+            className=""
+            onClick={() => {
+                connectWallet()
+            }}>Connect Wallet</button>
 
         </div>
     );
