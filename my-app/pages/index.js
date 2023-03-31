@@ -19,9 +19,9 @@ import { claimed, isEngaged } from "../utils/NFTValidationUtils/claimedNFT";
 import dynamic from 'next/dynamic'
 
 
-const DynWhal3s = dynamic(() => import('./whal3s'), {
+const DynWhal3s = dynamic(() => import('../utils/whal3s'), {
   ssr: false
-})
+});
 
 export default function Home() {
   const [loading, setLoading] = useState(false);
