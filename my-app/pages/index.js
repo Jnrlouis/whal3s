@@ -382,9 +382,9 @@ export default function Home() {
             Exchange Ethereum &#60;&#62; Crypto Dev Tokens
           </h3>
           <h4 className={styles.description}>
-            Only SAI NFT owners are allowed. Why? Because it's only for the Elite.
+            Only SAI NFT owners are allowed. Why? Because its only for the Elite.
             <br/><br />
-            Want to join the club? You can mint SAI NFTs <a href="https://nftcollection-beta.vercel.app/" target="_blank">
+            Want to join the club? You can mint SAI NFTs <a href="https://nftcollection-beta.vercel.app/" target="_blank" rel="noreferrer">
               <button2
                 className={styles.button}
               >
@@ -392,7 +392,7 @@ export default function Home() {
               </button2>
             </a>
             <br/> <br/>
-            Powered by <a href="https://app.whal3s.xyz/" target="_blank">
+            Powered by <a href="https://app.whal3s.xyz/" target="_blank" rel="noreferrer">
             <button
                 className={styles.button}
               >
